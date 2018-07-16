@@ -1,4 +1,3 @@
-
 /*
  *    Licensed under the Apache License, Version 2.0 (the "License");
  *    you may not use this file except in compliance with the License.
@@ -24,7 +23,6 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.zhxh.xnetworklib.downloader.Error;
 import com.zhxh.xnetworklib.downloader.OnCancelListener;
 import com.zhxh.xnetworklib.downloader.OnDownloadListener;
 import com.zhxh.xnetworklib.downloader.OnPauseListener;
