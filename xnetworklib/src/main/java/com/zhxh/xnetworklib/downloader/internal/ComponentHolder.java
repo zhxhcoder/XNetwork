@@ -19,8 +19,8 @@ package com.zhxh.xnetworklib.downloader.internal;
 import android.content.Context;
 
 import com.zhxh.xnetworklib.downloader.Constants;
-import com.zhxh.xnetworklib.downloader.PRDownloader;
-import com.zhxh.xnetworklib.downloader.PRDownloaderConfig;
+import com.zhxh.xnetworklib.downloader.XNetDownloader;
+import com.zhxh.xnetworklib.downloader.XNetDownloaderConfig;
 import com.zhxh.xnetworklib.downloader.database.AppDbHelper;
 import com.zhxh.xnetworklib.downloader.database.DbHelper;
 import com.zhxh.xnetworklib.downloader.database.NoOpsDbHelper;
@@ -44,14 +44,14 @@ public class ComponentHolder {
         return INSTANCE;
     }
 
-    public void init(Context context, PRDownloaderConfig config) {
+    public void init(Context context, XNetDownloaderConfig config) {
         this.readTimeout = config.getReadTimeout();
         this.connectTimeout = config.getConnectTimeout();
         this.userAgent = config.getUserAgent();
         this.httpClient = config.getHttpClient();
         this.dbHelper = config.isDatabaseEnabled() ? new AppDbHelper(context) : new NoOpsDbHelper();
         if (config.isDatabaseEnabled()) {
-            PRDownloader.cleanUp(30);
+            XNetDownloader.cleanUp(30);
         }
     }
 

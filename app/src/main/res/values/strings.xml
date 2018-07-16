@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">XNetwork</string>
+    <string name="some_error_occurred">出错啦</string>
+    <string name="start">开始</string>
+    <string name="completed">完成</string>
+    <string name="pause">暂停</string>
+    <string name="cancel">取消</string>
+    <string name="resume">重新</string>
+    <string name="restart">重启</string>
 </resources>
