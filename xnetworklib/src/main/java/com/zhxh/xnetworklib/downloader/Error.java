@@ -20,7 +20,7 @@ package com.zhxh.xnetworklib.downloader;
  * Created by zhxh on 13/11/17.
  */
 
-public class Error {
+public class Error extends java.lang.Error {
 
     private boolean isServerError;
     private boolean isConnectionError;

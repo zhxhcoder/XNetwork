@@ -28,9 +28,9 @@ import com.zhxh.xnetworklib.downloader.OnDownloadListener;
 import com.zhxh.xnetworklib.downloader.OnPauseListener;
 import com.zhxh.xnetworklib.downloader.OnProgressListener;
 import com.zhxh.xnetworklib.downloader.OnStartOrResumeListener;
-import com.zhxh.xnetworklib.downloader.XNetDownloader;
 import com.zhxh.xnetworklib.downloader.Progress;
 import com.zhxh.xnetworklib.downloader.Status;
+import com.zhxh.xnetworklib.downloader.XNetDownloader;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -45,12 +45,12 @@ public class MainActivity extends AppCompatActivity {
     final String URL7 = "http://download.niuguwang.com/files/apk/ngw/niuguwang3.8.9_niuguwang.apk";
     final String URL8 = "http://download.niuguwang.com/files/apk/ngw/niuguwang3.8.9_niuguwang.apk";
     final String URL9 = "http://download.niuguwang.com/files/apk/ngw/niuguwang3.8.9_niuguwang.apk";
-    final String URL10 ="http://download.niuguwang.com/files/apk/ngw/niuguwang3.8.9_niuguwang.apk";
-    final String URL11 ="http://download.niuguwang.com/files/apk/ngw/niuguwang3.8.9_niuguwang.apk";
-    final String URL12 ="http://download.niuguwang.com/files/apk/ngw/niuguwang3.8.9_niuguwang.apk";
-    final String URL13 ="http://download.niuguwang.com/files/apk/ngw/niuguwang3.8.9_niuguwang.apk";
-    final String URL14 ="http://download.niuguwang.com/files/apk/ngw/niuguwang3.8.9_niuguwang.apk";
-    final String URL15 ="http://download.niuguwang.com/files/apk/ngw/niuguwang3.8.9_niuguwang.apk";
+    final String URL10 = "http://download.niuguwang.com/files/apk/ngw/niuguwang3.8.9_niuguwang.apk";
+    final String URL11 = "http://download.niuguwang.com/files/apk/ngw/niuguwang3.8.9_niuguwang.apk";
+    final String URL12 = "http://download.niuguwang.com/files/apk/ngw/niuguwang3.8.9_niuguwang.apk";
+    final String URL13 = "http://download.niuguwang.com/files/apk/ngw/niuguwang3.8.9_niuguwang.apk";
+    final String URL14 = "http://download.niuguwang.com/files/apk/ngw/niuguwang3.8.9_niuguwang.apk";
+    final String URL15 = "http://download.niuguwang.com/files/apk/ngw/niuguwang3.8.9_niuguwang.apk";
 
     Button buttonOne, buttonTwo, buttonThree, buttonFour,
             buttonFive, buttonSix, buttonSeven, buttonEight,

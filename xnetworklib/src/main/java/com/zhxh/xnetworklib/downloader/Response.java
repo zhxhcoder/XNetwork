@@ -16,20 +16,19 @@
 
 package com.zhxh.xnetworklib.downloader;
 
-import java.lang.Error;
-
+import com.zhxh.xnetworklib.downloader.Error;
 /**
  * Created by zhxh on 13/11/17.
  */
 
 public class Response {
 
-    private java.lang.Error error;
+    private Error error;
     private boolean isSuccessful;
     private boolean isPaused;
     private boolean isCancelled;
 
-    public java.lang.Error getError() {
+    public Error getError() {
         return error;
     }
 
