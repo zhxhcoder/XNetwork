@@ -1,4 +1,4 @@
-package com.zhxh.android.xnetwork;
+package com.zhxh.xnetwork;
 
 import android.content.Context;
 import android.os.Environment;

@@ -12,7 +12,7 @@
  *    limitations under the License.
  */
 
-package com.zhxh.android.xnetwork;
+package com.zhxh.xnetwork;
 
 import android.graphics.Color;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.zhxh.android.xnetwork;
+package com.zhxh.xnetwork;
 
 import android.app.Application;
 
